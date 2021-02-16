@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "2hJxrbmh1+5d5ySHUu6fk9v4kCvhIV1OEdc719+wb6dE4QlDSstdkt8SleOWZ0enoHdJcscgxhpSf0shlXCzFw==",
+  "success": true,
+  "projectFilePath": "/home/sepsabeti/Projects/dotnet-workspace/client1/client1/client1.csproj",
+  "expectedPackageFiles": [
+    "/home/sepsabeti/.nuget/packages/microsoft.netcore.platforms/3.1.0/microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "/home/sepsabeti/.nuget/packages/tizen.net/8.0.0.15631/tizen.net.8.0.0.15631.nupkg.sha512",
+    "/home/sepsabeti/.nuget/packages/tizen.net.api4/4.0.1.14164/tizen.net.api4.4.0.1.14164.nupkg.sha512",
+    "/home/sepsabeti/.nuget/packages/tizen.wearable.circularui/1.5.0/tizen.wearable.circularui.1.5.0.nupkg.sha512",
+    "/home/sepsabeti/.nuget/packages/xamarin.forms/4.6.0.967/xamarin.forms.4.6.0.967.nupkg.sha512"
+  ],
+  "logs": []
+}

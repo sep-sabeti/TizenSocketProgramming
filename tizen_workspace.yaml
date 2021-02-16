@@ -1,0 +1,41 @@
+# Enable auto build file generation
+auto_gen_build_files: true
+
+# Workspace type, [native/web/dotnet]
+type: dotnet
+
+# Package ID and version for the Tizen package
+package_id: org.example.dotnetworkspace
+version: "0.0.1"
+
+# Default profile, Tizen API version
+profile: tizen
+api_version: "4.0"
+
+# Signing profile to be used for Tizen package signing
+# If value is empty, active signing profile will be used
+signing_profile: "default_public_signer"
+
+# Build type [debug/ release/ test]
+build_type: debug
+
+# Rootstrap for compiling native app
+rootstrap: public
+
+# Default compiler for native app compilation
+compiler: llvm
+
+# default arch for build, [x86/ x86_64/ arm/ aarch64]
+arch: x86
+
+# Source files matching these pattern will always be excluded from build
+src_file_patterns:
+- "_exclude*"
+
+# Source files matching these patterns will only be included while building in test mode
+test_file_patterns:
+- "_test*"
+
+# List of projects in the workspace and their dependencies
+projects:
+  demo: []

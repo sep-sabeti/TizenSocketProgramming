@@ -1,0 +1,58 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/sepsabeti/Projects/dotnet-workspace/client1/client1/client1.csproj": {}
+  },
+  "projects": {
+    "/home/sepsabeti/Projects/dotnet-workspace/client1/client1/client1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/sepsabeti/Projects/dotnet-workspace/client1/client1/client1.csproj",
+        "projectName": "client1",
+        "projectPath": "/home/sepsabeti/Projects/dotnet-workspace/client1/client1/client1.csproj",
+        "packagesPath": "/home/sepsabeti/.nuget/packages/",
+        "outputPath": "/home/sepsabeti/Projects/dotnet-workspace/client1/client1/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/sepsabeti/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "tizen40"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "tizen40": {
+            "targetAlias": "tizen40",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "tizen40": {
+          "targetAlias": "tizen40",
+          "dependencies": {
+            "Tizen.NET": {
+              "include": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0.15631, )",
+              "autoReferenced": true
+            },
+            "Tizen.Wearable.CircularUI": {
+              "target": "Package",
+              "version": "[1.5.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.103/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
