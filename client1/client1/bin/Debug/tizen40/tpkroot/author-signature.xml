@@ -44,11 +44,11 @@
     </Reference>
     <Reference URI="bin%2Fclient1.pdb">
       <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
-      <DigestValue>q+K/T9Ubc8BWnw4jXNB/sXxLx+Oip2mnDFldsxiqq2hHVjMMsEvwqO8L90MxmzHP/77/jPdm/UVYQ4rrOL2PTQ==</DigestValue>
+      <DigestValue>csg/Br/XP4Pnxd86oAjkJcLSTXyLgSrq0Rhztubmw0hwvuV9KkmhSzSVImVu8ZJ5kvCPuf6HYOH2M7imV6J/AA==</DigestValue>
     </Reference>
     <Reference URI="bin%2Fclient1.dll">
       <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
-      <DigestValue>zQmtj4GwYwMAQIPV0Mm4FK/WKhUnAGKfzDmW7eAam+C352m3Kr3wAiQ1lwsanZLSCme1JgI2jeG7pxdIuaSgEw==</DigestValue>
+      <DigestValue>cFqW6vXUABmP5CWph62GBbxnKbpGM6IJOiD0wYKnyPAb6jJ69TynMpQ2IixDiEKZokiXkl09haLpfo4bcv5B1A==</DigestValue>
     </Reference>
     <Reference URI="#prop">
       <Transforms>
@@ -59,11 +59,11 @@
     </Reference>
   </SignedInfo>
   <SignatureValue>
-dDF2auSx8jZHD4eUP0xclD7M095BjEKpttYDIDVhXtPvQNLzfDhig4DwQFxI80tNb8otm+OLyUPF
-ECn4Hhkm1EeXs23XOEEcl955o21bmnf4WS+WGEjS6kT9nh1qVLdsFwTPllWTgzX0P6dmT87lc0Zp
-JgXeJXSgE/E4SqnvyVlf79k/EIUmdKsjqgdUbbwcvQkpal7iWh/IE6oUMK8Ywq9Oyya7Yzsav5Y7
-H5PhzgJrpQ4QJquj0mPVT3PHTOpTSqRied3simb+avEx70sshSdKjpd5AefaGh+bRUZwzdW9ERNx
-mL1xVxn8qA7Blt6b9di4XqwIoD7b2KUsY+LrIg==
+SRxGpQeFfrR6OQDaz33Fak2mLB5qzf9eU0ZQJFeA/3fxKBa3G558IL2DZQANRUKuD24xSCXn5tdk
+PtOdZShYJobKQAKPYefn8QCRPIBj0UysuhNKAg7a8+3EKj1n4oz6MEJOUH4j3Wv/tTub3VCsil0Z
+h87GfRnxYDcBOFrblD9WhI1rpB+rMUHXOEEj8xeg4aSU9V/1gR9/XYf4uL8FYtBiLoyAZFd1jpxJ
+9PJLUwYke/O8kVUaA3V/IqdpZbg1D66dPoj23aUa1xYf/zw26VnUGpbmM8BnIgmVfJaswMQLMl5Q
+guMTMKElKzT9++6E2rgF1v240cttcjZLEpBmQA==
 </SignatureValue>
   <KeyInfo>
     <X509Data>

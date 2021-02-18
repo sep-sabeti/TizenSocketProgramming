@@ -36,6 +36,7 @@ public class Client {
 
         private static String TOBESENT = "Hey";
 
+    public static Label _label = new Label();
 
     
     //Needing these functions for threading  
@@ -44,6 +45,8 @@ public class Client {
     private static ManualResetEvent sendDone =
         new ManualResetEvent(false);  
     private static ManualResetEvent receiveDone =
+        new ManualResetEvent(false); 
+            private static ManualResetEvent communicationDone =
         new ManualResetEvent(false); 
 
     // The response from the remote device.  
@@ -89,10 +92,9 @@ public String getReceivedText(){
             // Begin receiving the data from the remote device.  
             client.BeginReceive( state.buffer, 0, StateObject.BufferSize, 0,  
                 new AsyncCallback(ReceiveCallback), state);  
-                            Console.WriteLine("Communication is done");
+            Console.WriteLine("Communication is done");
                 Feedback feedback = new Feedback();
                 feedback.Play(FeedbackType.Vibration, "Email");
-
             byte[] byteData = Encoding.ASCII.GetBytes(TOBESENT);  
   
         // Begin sending the data to the remote device.  
@@ -141,7 +143,10 @@ public String getReceivedText(){
                 // All the data has arrived; put it in response.  
                 if (state.sb.Length > 1) {  
                     recievedString = state.sb.ToString();  
-                    MESSAGE = recievedString;
+                    Client.MESSAGE  = recievedString;
+                    _label.Text = Client.MESSAGE;
+                    Feedback feedback = new Feedback();
+                    feedback.Play(FeedbackType.Vibration, "Email");
                 }  
                 // Signal that all bytes have been received.  
                 receiveDone.Set();  
@@ -179,8 +184,7 @@ public String getReceivedText(){
         client = new Client("192.168.0.167",9750);
         client.startClient();
         client.communicate();
-        Client.MESSAGE = client.getReceivedText();
-                    label.Text = Client.MESSAGE;
+        // label.Text = Client.MESSAGE;
 
 
 }
@@ -194,10 +198,14 @@ public String getReceivedText(){
                 
             };
 
-            label = new Label{
-                Text = "Recieved Message",
-                HorizontalOptions = LayoutOptions.Center,
-            };
+
+            // label = new Label{
+            //     Text = "Recieved Message",
+            //     HorizontalOptions = LayoutOptions.Center,
+            // };
+
+            Client._label.Text = "recieved Message";
+            Client._label.HorizontalOptions = LayoutOptions.Center;
 
     
             button.Clicked +=  OnButtonClicked;
@@ -208,7 +216,7 @@ public String getReceivedText(){
                     VerticalOptions = LayoutOptions.Center,
                     Children = {
                         button,
-                        label,
+                        Client._label,
                     }
                 }
             };
