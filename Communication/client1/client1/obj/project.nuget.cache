@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2hJxrbmh1+5d5ySHUu6fk9v4kCvhIV1OEdc719+wb6dE4QlDSstdkt8SleOWZ0enoHdJcscgxhpSf0shlXCzFw==",
+  "dgSpecHash": "bAPSuogYTzj/yJ6SWS+V6azsQgUHPHN58yC6kW5/iALNPsq62OaG8uHJwn5pIKq2ejSDgCgtQ3qEm74tYedMGg==",
   "success": true,
-  "projectFilePath": "/home/sepsabeti/Projects/dotnet-workspace/client1/client1/client1.csproj",
+  "projectFilePath": "/home/sepsabeti/Projects/dotnet-workspace/Communication/client1/client1/client1.csproj",
   "expectedPackageFiles": [
     "/home/sepsabeti/.nuget/packages/microsoft.netcore.platforms/3.1.0/microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "/home/sepsabeti/.nuget/packages/tizen.net/8.0.0.15631/tizen.net.8.0.0.15631.nupkg.sha512",

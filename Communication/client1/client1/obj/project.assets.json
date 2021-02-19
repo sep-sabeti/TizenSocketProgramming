@@ -972,11 +972,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/sepsabeti/Projects/dotnet-workspace/client1/client1/client1.csproj",
+      "projectUniqueName": "/home/sepsabeti/Projects/dotnet-workspace/Communication/client1/client1/client1.csproj",
       "projectName": "client1",
-      "projectPath": "/home/sepsabeti/Projects/dotnet-workspace/client1/client1/client1.csproj",
+      "projectPath": "/home/sepsabeti/Projects/dotnet-workspace/Communication/client1/client1/client1.csproj",
       "packagesPath": "/home/sepsabeti/.nuget/packages/",
-      "outputPath": "/home/sepsabeti/Projects/dotnet-workspace/client1/client1/obj/",
+      "outputPath": "/home/sepsabeti/Projects/dotnet-workspace/Communication/client1/client1/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/sepsabeti/.nuget/NuGet/NuGet.Config"
