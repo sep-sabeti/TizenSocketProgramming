@@ -1,0 +1,13 @@
+/home/sepsabeti/Projects/dotnet-workspace/Communication/Client/Client/bin/Debug/tizen40/tpkroot/bin/Client.dll
+/home/sepsabeti/Projects/dotnet-workspace/Communication/Client/Client/bin/Debug/tizen40/tpkroot/bin/Client.pdb
+/home/sepsabeti/Projects/dotnet-workspace/Communication/Client/Client/bin/Debug/tizen40/tpkroot/bin/Tizen.Wearable.CircularUI.Forms.Renderer.dll
+/home/sepsabeti/Projects/dotnet-workspace/Communication/Client/Client/bin/Debug/tizen40/tpkroot/bin/Tizen.Wearable.CircularUI.Forms.dll
+/home/sepsabeti/Projects/dotnet-workspace/Communication/Client/Client/bin/Debug/tizen40/tpkroot/bin/Xamarin.Forms.Core.dll
+/home/sepsabeti/Projects/dotnet-workspace/Communication/Client/Client/bin/Debug/tizen40/tpkroot/bin/Xamarin.Forms.Platform.Tizen.dll
+/home/sepsabeti/Projects/dotnet-workspace/Communication/Client/Client/bin/Debug/tizen40/tpkroot/bin/Xamarin.Forms.Platform.dll
+/home/sepsabeti/Projects/dotnet-workspace/Communication/Client/Client/bin/Debug/tizen40/tpkroot/bin/Xamarin.Forms.Xaml.dll
+/home/sepsabeti/Projects/dotnet-workspace/Communication/Client/Client/bin/Debug/tizen40/tpkroot/Client.deps.json
+/home/sepsabeti/Projects/dotnet-workspace/Communication/Client/Client/bin/Debug/tizen40/tpkroot/shared/res/Client.png
+/home/sepsabeti/Projects/dotnet-workspace/Communication/Client/Client/bin/Debug/tizen40/tpkroot/tizen-manifest.xml
+/home/sepsabeti/Projects/dotnet-workspace/Communication/Client/Client/bin/Debug/tizen40/tpkroot/res/tizen-circular-ui-theme.edj
+/home/sepsabeti/Projects/dotnet-workspace/Communication/Client/Client/bin/Debug/tizen40/org.tizen.example.Client-1.0.0.tpk

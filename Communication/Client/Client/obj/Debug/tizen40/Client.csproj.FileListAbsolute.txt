@@ -1,0 +1,10 @@
+/home/sepsabeti/Projects/dotnet-workspace/Communication/Client/Client/bin/Debug/tizen40/Client.deps.json
+/home/sepsabeti/Projects/dotnet-workspace/Communication/Client/Client/bin/Debug/tizen40/Client.dll
+/home/sepsabeti/Projects/dotnet-workspace/Communication/Client/Client/bin/Debug/tizen40/Client.pdb
+/home/sepsabeti/Projects/dotnet-workspace/Communication/Client/Client/obj/Debug/tizen40/Client.csprojAssemblyReference.cache
+/home/sepsabeti/Projects/dotnet-workspace/Communication/Client/Client/obj/Debug/tizen40/Client.AssemblyInfoInputs.cache
+/home/sepsabeti/Projects/dotnet-workspace/Communication/Client/Client/obj/Debug/tizen40/Client.AssemblyInfo.cs
+/home/sepsabeti/Projects/dotnet-workspace/Communication/Client/Client/obj/Debug/tizen40/Client.csproj.CoreCompileInputs.cache
+/home/sepsabeti/Projects/dotnet-workspace/Communication/Client/Client/obj/Debug/tizen40/XamlC.stamp
+/home/sepsabeti/Projects/dotnet-workspace/Communication/Client/Client/obj/Debug/tizen40/Client.dll
+/home/sepsabeti/Projects/dotnet-workspace/Communication/Client/Client/obj/Debug/tizen40/Client.pdb
